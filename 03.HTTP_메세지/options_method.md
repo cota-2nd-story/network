@@ -8,7 +8,7 @@ Options는 브라우저에서 cross origin ajax request가 있을 때 서버에 
 
 >  한 출처에서 실행 중인 웹 애플리케이션이 다른 출처의 선택한 자원에 접근할 수 있는 권한을 부여하도록 "추가 HTTP 헤더를 사용하여" 브라우저에 알려주는 체제
 
-* XMLHttpRequest와 Fetch API, 웹 폰트(@font-face에서 교차 도메인 푠트 사용 시), WebGL 텍스쳐, drawImage()를 사용하여 캔버스에 그린 이미지/비디오 프레임, 이미지로부터 추출하는 css shape은 동일 출처 정책을 따른다.
+* XMLHttpRequest와 Fetch API, 웹 폰트(@font-face에서 교차 도메인 폰트 사용 시), WebGL 텍스쳐, drawImage()를 사용하여 캔버스에 그린 이미지/비디오 프레임, 이미지로부터 추출하는 css shape은 동일 출처 정책을 따른다.
 * 이 API를 사용하는 웹 애플리케이션은 자신의 출처와 동일한 리소스만 불러올 수 있다.
 * 다른 출처의 리소스를 불러오려면 그 출처에서 올바른 CORS 헤더(Access-Control-Allow-Origin)를 포함한 응답을 반환해야 한다.
 
